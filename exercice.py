@@ -13,7 +13,7 @@ def majuscule(mot):
 
 if __name__ == '__main__':
     mots = [
-        'Riz &  Pates',
+        'riz',
         'cours',
         'voiture',
         'oiseau',
