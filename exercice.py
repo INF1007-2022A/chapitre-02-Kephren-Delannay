@@ -2,12 +2,18 @@
 # -*- coding: utf-8 -*-
 def majuscule(mot):
     # TODO completer la fonction ici
-    return mot
+    nouveau_mot = ""
+    for lettre in mot:
+        if ord("a") <= ord(lettre) <= ord("z"):
+            nouveau_mot += chr(ord(lettre) - 32)
+        else:
+            nouveau_mot += lettre
+    return nouveau_mot
 
 
 if __name__ == '__main__':
     mots = [
-        'riz',
+        'riz & Pates',
         'cours',
         'voiture',
         'oiseau',
